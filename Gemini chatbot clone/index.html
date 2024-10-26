@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <!--Linking Google Fonts for Icons-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400&display=swap" />
 
 </head>
 
@@ -48,11 +49,11 @@
             </ul>
     </header>
 
-<!--Chat List / Container-->
+    <!--Chat List / Container-->
     <div class="chat-list">
-        <div class="message outgoing">
+       <!-- <div class="message outgoing">
             <div class="message-content">
-                <img src="" alt="User Image" class="avatar" >
+                <img src="images/userIcon.avif" alt="User Image" class="avatar">
                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Aliquam iste expedita molestiae perferendis magni quisquam similique.
                     Qui ipsam perspiciatis impedit, praesentium error laudantium culpa
@@ -61,7 +62,7 @@
         </div>
         <div class="message incoming">
             <div class="message-content">
-                <img src="" alt="Gemini Image" class="avatar" >
+                <img src="userIcon.avif" alt="Gemini Image" class="avatar">
                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Aliquam iste expedita molestiae perferendis magni quisquam similique.
                     Qui ipsam perspiciatis impedit, praesentium error laudantium culpa
@@ -69,9 +70,10 @@
             </div>
             <span class="icon material-symbols-rounded">
                 content_copy
-                </span>
+            </span>
         </div>
-        <div class="message incoming loading">
+        -->
+        <!--  <div class="message incoming loading">
             <div class="message-content">
                 <img src="" alt="Gemini Image" class="avatar" >
                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -85,9 +87,9 @@
                     </div>
             </div>
             <span class="icon material-symbols-rounded">
-                content_copy
+                content_co py
                 </span>
-        </div>
+        </div>-->
     </div>
 
     <div class="typing-area">
@@ -99,12 +101,12 @@
                 </span>
             </div>
             <div class="action-buttons">
-                <span class="icon material-symbols-rounded">
-                    delete
+                <span id = "toggle-theme-button" class="icon material-symbols-rounded">
+                    light_mode
                     </span>
-                <span class="icon material-symbols-rounded">
+                <span id = "delete-chat-button" class="icon material-symbols-rounded">
                     delete
-                    </span>
+                </span>
             </div>
         </form>
         <p class="disclaimer-text">
